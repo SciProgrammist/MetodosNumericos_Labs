@@ -9,6 +9,8 @@ clc
 clear all 
 disp('Metodo de')
 xn = input('Introduzca el valor de xo: ');
+%varibale que abre otro archivo de funcion es el nombre del archivo . m el
+%cual abre. funcion, dfuncion.
 fxn=funcion(xn);
 error=0.000001;
 fprintf('tolerancia= %e\n', error)
